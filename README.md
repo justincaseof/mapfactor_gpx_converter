@@ -6,4 +6,6 @@ Unfortunately, there is no convenient way to plan routes on PC and import them i
 A feasible way to do so is to plan a route in the common GPX format and convert it to the file format in which Navigator stores its own routing points.
 
 NOTE:
+ * a minor issue with XML namespaces: you need to manually remove xmlns attributes from gpx element in source file
  * a downside to this simple XSLT conversion is the lack of "mergeability" of new routes into existing ones.
+ 
